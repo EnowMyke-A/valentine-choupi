@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#e94e77",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#211115",
+                        "surface-light": "#ffffff",
+                        "text-dark": "#111111",
+                        "text-gray": "#666666",
+                    },
+                    fontFamily: { "display": ["Inter", "sans-serif"] },
+                    boxShadow: {
+                        'glow': '0 10px 25px -5px rgba(233, 78, 119, 0.4), 0 8px 10px -6px rgba(233, 78, 119, 0.2)',
+                    }
+                },
+            },
+        }
+    </script>
+    <title>my-valentine-app</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
