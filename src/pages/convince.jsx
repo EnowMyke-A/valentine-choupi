@@ -12,7 +12,7 @@ const ConvinceScreen = () => {
   const intervalRef = useRef(null);
 
   const totalCards = 6;
-  const DURATION = 2000;
+  const DURATION = 4000;
   const STEP = 10;
 
   const cardsData = [
